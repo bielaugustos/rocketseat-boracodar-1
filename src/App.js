@@ -17,9 +17,9 @@ export default function App() {
   let [currentTime, setCurrentTime] = useState(0);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen sm:py-6">
-      <div className="max-w-[390px] w-full flex mx-auto flex-col relative shadow-2xl overflow-hidden sm:rounded-xl">
-        <div className="flex flex-col items-center flex-1 w-full px-6 shadow-2xl">
+    <div className="flex flex-col items-center justify-center min-h-screen sm:py-2">
+      <div className="max-w-[390px] w-full flex mx-auto flex-col relative shadow-2xl overflow-hidden sm:rounded-x3">
+        <div className="flex flex-col items-center flex-1 w-full px-4 shadow-2xl">
           <Header />
 
           <AnimatedGradient />
@@ -98,7 +98,7 @@ function Header() {
     <div className="w-full pt-3 mb-8">
       <div className="flex items-center justify-between pl-3 pr-1 ">
         <div className="flex items-center space-x-1.5">
-          <span className="font-semibold text-white text-[17px]">6:18</span>
+          <span className="font-semibold text-white text-[14px]">15:51</span>
           <Icons.Location className="w-[13px] text-white" />
         </div>
         <div className="flex items-center space-x-1.5">
@@ -150,10 +150,10 @@ function Title() {
   return (
     <div className="flex items-center justify-between">
       <div>
-        <p className="text-xl font-medium leading-tight text-white truncate">
+        <p className="text-xl font-small leading-tight text-white">
           You Right
         </p>
-        <p className=" text-xl leading-tight truncate text-[#A49FC3]/90">
+        <p className=" text-xl leading-tight text-[#A49FC3]/100">
           Doja Cat & The Weeknd
         </p>
       </div>
