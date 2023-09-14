@@ -1,4 +1,6 @@
-### simple apple-music clone ui
+### `simple apple-music clone ui`
 
+`this project was bootstrapped with [create react app]`(https://github.com/facebook/create-react-app).
 
-#### rocketseat idea #boracodar-1
+![Alt text](public/example-image.png)
+#### `rocketseat idea #boracodar-1`
